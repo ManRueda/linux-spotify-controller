@@ -1,5 +1,6 @@
 import LinuxSpotifyController from './linux-spotify-controller';
 
-new LinuxSpotifyController((err, instance) => {
-	console.log(instance);
+var test = new LinuxSpotifyController();
+test.promise.then((intance) => {
+	intance.pause();
 });
