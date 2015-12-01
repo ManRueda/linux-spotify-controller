@@ -1,0 +1,19 @@
+{
+  "name": "linux-spotify-controller",
+  "version": "0.0.1",
+  "description": "Spotify linux client controller",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18"
+  }
+}
